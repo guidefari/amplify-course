@@ -1,0 +1,16 @@
+{
+  "resourceName": "postImages",
+  "policyUUID": "763d4590",
+  "bucketName": "paulodichonecourse3f6dcdd9c9604d0fb05023d4497b8",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
