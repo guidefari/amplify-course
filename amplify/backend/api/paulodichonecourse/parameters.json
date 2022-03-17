@@ -1,5 +1,12 @@
 {
   "AppSyncApiName": "paulodichonecourse",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-03-17T13:45:29.796Z",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authpaulodichonecourse8fc6c7ef",
+      "Outputs.UserPoolId"
+    ]
+  }
 }

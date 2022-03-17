@@ -3,10 +3,19 @@
   "serviceConfiguration": {
     "apiName": "paulodichonecourse",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/Users/guidefari/source/amplify-course/amplify/backend/api/paulodichonecourse/schema.graphql",
+    "gqlSchemaPath": "/home/guide/source/amplify-course/amplify/backend/api/paulodichonecourse/schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "expirationTime": 7
-    }
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-03-17T13:45:19.470Z",
+      "keyDescription": "public api key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authpaulodichonecourse8fc6c7ef"
+      }
+    ]
   }
 }
