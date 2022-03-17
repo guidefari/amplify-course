@@ -10,6 +10,11 @@
       "StackName": "amplify-paulodichonecourse-dev-140202",
       "StackId": "arn:aws:cloudformation:sa-east-1:264610300933:stack/amplify-paulodichonecourse-dev-140202/eca3b150-a520-11ec-8b1b-06ea5cb47baa",
       "AmplifyAppId": "d2rpz3z6rnytni"
+    },
+    "categories": {
+      "auth": {
+        "paulodichonecourse8fc6c7ef": {}
+      }
     }
   }
 }
