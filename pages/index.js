@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1 className="mb-20 text-4xl font-bold underline">My Posts</h1>
+      <h1 className="mb-10 text-4xl font-bold underline">My Posts</h1>
       <div>
         {posts.length > 0 &&
           posts.map(post => <h4 key={post.id}>{post.title}</h4>)}
